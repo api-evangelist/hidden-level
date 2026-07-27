@@ -1,8 +1,19 @@
 aid: hidden-level
 name: Hidden Level
-description: 'Hidden Level is a company surfaced as a portfolio company of costanoa-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: defense-aerospace. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Hidden Level is a U.S.-based defense and aerospace technology company that turns
+  radio-frequency (RF) activity into trusted airspace intelligence. Its passive
+  RF sensing platform detects and tracks unmanned aerial systems (drones) and other
+  activity across air, ground, sea, and space domains without requiring emitters or
+  heavy on-site infrastructure. Hidden Level packages this as hardware sensor
+  platforms, software platforms, and data platforms serving defense and military,
+  critical infrastructure protection, homeland security, and public safety
+  customers. The company hosts its platform on AWS with least-privilege access,
+  MFA, and TLS 1.3 API communications, aligns corporate controls to NIST SP 800-171,
+  and emphasizes U.S. design and manufacturing. Backed by Costanoa Ventures. This
+  API Evangelist profile tracks Hidden Level's public web and security surface;
+  the company does not currently publish a public developer portal, API reference,
+  or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/hidden-level/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +21,32 @@ x-backed-by:
 - costanoa-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/66fb792788c588b422dd6257/672d06af98766a4adb275d2c_Hidden-Level-Home.png
 tags:
 - Company
-- Defense Aerospace
+- Defense
+- Aerospace
+- Airspace Awareness
+- Counter-UAS
+- Drone Detection
+- RF Sensing
+- Critical Infrastructure
+- Public Safety
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,24 @@ maintainers:
 common:
 - type: Website
   url: https://hiddenlevel.com
+- type: About
+  url: https://hiddenlevel.com/about
+- type: Support
+  url: https://hiddenlevel.com/contact-us
+- type: Blog
+  url: https://hiddenlevel.com/thought-leadership
+- type: PrivacyPolicy
+  url: https://hiddenlevel.com/privacy-policy
+- type: TrustCenter
+  url: https://hiddenlevel.com/security-trust
+- type: Compliance
+  url: https://hiddenlevel.com/security-trust
+- type: DomainSecurity
+  url: security/hidden-level-domain-security.yml
+- type: TrustCenter
+  url: security/hidden-level-trust-center.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
